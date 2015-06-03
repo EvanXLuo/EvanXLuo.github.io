@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+
 }
 
 html {
@@ -64,10 +65,28 @@ of those sections to manage the look and feel of the site. */
 
 
 
-.page-scroll a {
-    font-size: 50px;
+.navbar-fixed-top .container .page-scroll a {
+    font-size: 55px;
     font-weight: bold;
 }
-.contact-section .my-info {
-    text-indent: 50px;
+.navbar-fixed-top .container .navbar-ex1-collapse {
+    font-weight: bold;
+    font-size: 15px;
+}
+.contact-section a {
+    font-size: 16pt;
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+.contact-section h1 {
+    padding-bottom: 25px;
+}
+.contact-section .my-info h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contact-section .my-info a{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
