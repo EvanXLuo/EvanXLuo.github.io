@@ -35,7 +35,7 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    text-align: left;
     background: #fff;
 }
 
@@ -55,7 +55,7 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     height: 100%;
-    padding-top: 100px;
+    padding: 100px;
     text-align: left;
     background: #eee;
 }
@@ -66,27 +66,39 @@ of those sections to manage the look and feel of the site. */
 
 
 .navbar-fixed-top .container .page-scroll a {
-    font-size: 55px;
+    font-size: 60px;
     font-weight: bold;
 }
 .navbar-fixed-top .container .navbar-ex1-collapse {
     font-weight: bold;
     font-size: 15px;
 }
+.contact-section .container {
+    display: block;
+    float: left;
+}
 .contact-section a {
     font-size: 16pt;
     font-weight: bold;
     float: left;
     clear: left;
+    padding-bottom: 15px;
+    color: red;
 }
 .contact-section h1 {
     padding-bottom: 25px;
+    font-weight: bold;
+    color: #011D42;
 }
 .contact-section .my-info h4{
-    padding-top: 5px;
+    float: left;
+    clear: left;
     padding-bottom: 5px;
 }
-.contact-section .my-info a{
-    padding-top: 5px;
-    padding-bottom: 5px;
+.contact-section .my-info .col-md-6 {
+    padding-top: 35px;
+}
+.contact-section .container .thumbnail {
+    display: inline;
+    float: right;
 }
