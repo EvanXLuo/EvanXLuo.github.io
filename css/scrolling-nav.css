@@ -7,7 +7,6 @@
 body {
     width: 100%;
     height: 100%;
-
 }
 
 html {
@@ -35,14 +34,12 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
     height: 100%;
     padding-top: 150px;
-    text-align: left;
     background: #fff;
 }
 
 .projects-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 75px;
     background: #eee;
 }
 
@@ -101,3 +98,39 @@ of those sections to manage the look and feel of the site. */
     display: inline;
     float: right;
 }
+
+
+
+
+.intro-section .self_intro {
+    float: left;
+    clear: both;
+    padding-bottom: 40px;
+}
+.intro-section .skills h2 {
+    padding-left: 10px;
+}
+.intro-section .skills {
+    float: center;
+}
+.intro-section .lab_skill {
+    float: left;
+    padding-left: 50px;
+}
+.intro-section .programming_skill {
+    float: left;
+    padding-left: 180px;
+    padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
