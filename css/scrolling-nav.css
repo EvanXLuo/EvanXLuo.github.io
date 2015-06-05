@@ -116,10 +116,11 @@ of those sections to manage the look and feel of the site. */
 .intro-section .lab_skill {
     float: left;
     padding-left: 50px;
+    padding-right: 130px;
 }
 .intro-section .programming_skill {
     float: left;
-    padding-left: 180px;
+    padding-left: 50px;
     padding-right: 20px;
 
 }
